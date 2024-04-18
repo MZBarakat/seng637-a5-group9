@@ -113,7 +113,7 @@ Compared to original input failure data:
 - Failure Rate: ~92/31 = `2.96` Failures/Interval
 - MTTF: 1/(~92/31) = `0.337` intervals
 
-This indicates that the acceptable failures/interval is ~3. Similar to the calculation above, we can predict future failure rates to determine if the number of failures is acceptable or not.
+This indicates that the failures/interval is ~3. Similar to the calculation above, we can predict future failure rates to determine if the number of failures is acceptable or not.
 
 Failures are inevitable for all SUT scenarios and its crucial to set expectation accordingly. Setting unrealistic low failure rate can result in inefficient resource allocation and conversely unrealistic high failure rate could have dire consequences as well. When making decisions regarding the targeted failure rate during reliability growth testing, it worth to consider determining the acceptable targeted failure rate for the SUT being evaluated. This determination can be set from expected failure rates set by users/clients or industry standards while taking into account factors such as project-specific requirements and safety. Finally, it is important to monitor the trend of the failure rate as this could lead to improved insights.
 
